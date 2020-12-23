@@ -4,11 +4,17 @@
 import React, { Children } from 'react'
 import Style from '../Section/style'
 
-const Section = ({ children }) => (
-    <Style >
-        {children}
+const Section = ({ children, background }) => {
+    console.log('--', background)
+    return (
+        < Style background={background}>
+            {children}
 
-    </Style>
-)
+        </Style >
+    )
+
+}
+
+
 
 export default Section

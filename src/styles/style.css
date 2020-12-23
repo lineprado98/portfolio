@@ -1,4 +1,9 @@
 body {
-  background: #f0ffff;
+  background: #d3e0e0;
   margin: 0px;
+  font-family: serif;
+}
+h2 {
+  font-family: serif;
+  font-size: 40px;
 }
