@@ -38,9 +38,9 @@ function Index() {
                     </div>
                 </Container>
             </Section>
-            {/* <Section background="#dedeea"></Section>
+            {/* <Section background="#dedeea"></Section> */}
             <Section background="red"></Section>
-            <Section background="black"></Section> */}
+            <Section background="black"></Section>
         </div >
     )
 

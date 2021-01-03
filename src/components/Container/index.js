@@ -6,7 +6,6 @@ import Style from '../Container/style'
 const Container = ({ children }) => (
     <Style>
         {children}
-
     </Style>
 )
 
