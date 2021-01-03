@@ -15,6 +15,7 @@ const Section = Styled.div`
     .item-faixa {
     background: #030323;
     height: 482px;
+    margin-top: 55px;
 
 }
 

@@ -1,14 +1,26 @@
-import React from "react"
+import React, { useRef } from "react"
 import Avatar from '../components/Avatar'
 import Section from '../components/Section/'
 import Sobre from '../components/Sobre'
 import Container from '../components/Container'
 import Faixa from '../components/Faixa'
+import Menu from '../components/Menu'
+import Header from '../components/Header'
+import Style from '../components/Menu/style'
+
+
+
 function Index() {
 
+
     return (
+
         <div>
+            <Header>
+            </Header>
+
             <Section>
+
                 <Container>
                     <Faixa>
                         <div className='item item-faixa'>
@@ -24,12 +36,10 @@ function Index() {
                         </Sobre>
                     </div>
                 </Container>
-
-
-                {/* <img src="https://meuamigopet.com.br/wp-content/uploads/2019/10/pitbull-terrier-am%C3%A9ricain-80916843.jpg" alt="Vercel Logo" className="logo" /> */}
             </Section>
-            <Section background="#dedeea"></Section>
-
+            {/* <Section background="#dedeea"></Section>
+            <Section background="red"></Section>
+            <Section background="black"></Section> */}
         </div >
     )
 
