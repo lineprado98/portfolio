@@ -1,13 +1,11 @@
 import React from "react"
 import Style from '../Header/style'
 import Menu from '../Menu'
-const Header = ({ }) => {
+const Header = ({ children }) => {
 
     return (
         <Style>
-            <div className="opac">
-                <Menu></Menu>
-            </div>
+            {children}
 
         </Style>
 

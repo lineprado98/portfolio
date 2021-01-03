@@ -1,6 +1,6 @@
 import React from "react"
 import Style from '../Menu/style'
-const Menu = ({ }) => {
+const Menu = () => {
 
     return (
         <Style>

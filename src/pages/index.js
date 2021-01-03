@@ -17,6 +17,7 @@ function Index() {
 
         <div>
             <Header>
+                <Menu></Menu>
             </Header>
 
             <Section>
