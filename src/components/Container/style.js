@@ -4,9 +4,12 @@ import Styled from 'styled-components'
 
 const Container = Styled.div`
 
+
     display: flex;
     justify-content: space-around;
-    
+
+
+
     .item {      
 	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
 	flex: 0.3; 
@@ -23,7 +26,8 @@ const Container = Styled.div`
     }
 
      @media(max-width:768px) {
-       display: grid!important;
+          flex-wrap: wrap;
+        
     }
 
 

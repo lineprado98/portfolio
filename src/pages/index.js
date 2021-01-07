@@ -7,9 +7,6 @@ import Faixa from '../components/Faixa'
 import Menu from '../components/Menu'
 import Header from '../components/Header'
 import Style from '../components/Menu/style'
-
-
-
 function Index() {
 
 
@@ -21,26 +18,41 @@ function Index() {
             </Header>
 
             <Section>
-
-                <Container>
-                    <Faixa>
-                        <div className='item item-faixa'>
-                            <div className="content">
-                                <Avatar></Avatar>
+                <div className="section-header">
+                    <Container>
+                        <Faixa>
+                            <div className='item item-faixa subir'>
+                                <div className="content">
+                                    <Avatar></Avatar>
+                                </div>
                             </div>
+                        </Faixa>
+                        <div className='item '>
+                            <Sobre>
+                                <h2>Aline Prado Barbosa</h2>
+                                <span className="spann"> Dev Full Stack</span>
+                            </Sobre>
                         </div>
-                    </Faixa>
-                    <div className='item'>
-                        <Sobre>
-                            <h2>Aline Prado Barbosa</h2>
-                            <span className="spann"> Dev Full Stack</span>
-                        </Sobre>
-                    </div>
-                </Container>
+
+                    </Container>
+                </div>
+
             </Section>
-            {/* <Section background="#dedeea"></Section> */}
-            <Section background="red"></Section>
-            <Section background="black"></Section>
+            <Section background={'#fdfdff'} >
+                <div className="experiencias correr ">
+                    <div className="item-exp ">
+                        <span>
+                            Sou desenvolvedora Junior, com dois anos de experiência na empresa DOWHILE.
+                            Tenho 22 anos, atualmente estou cursando Análise e desenvolvimento de Sistemas no 4º semestre
+                             na Instituição Fadergs.
+                       </span>
+                    </div>
+
+                </div>
+
+            </Section>
+
+
         </div >
     )
 
