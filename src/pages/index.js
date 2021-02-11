@@ -18,7 +18,7 @@ function Index() {
             </Header>
 
             <Section>
-                <div className="section-header">
+                <div id="inicio" className="section-header">
                     <Container>
                         <Faixa>
                             <div className='item item-faixa subir'>
@@ -38,8 +38,9 @@ function Index() {
                 </div>
 
             </Section>
+
             <Section background={'#fdfdff'} >
-                <div className="experiencias correr ">
+                <div id="sobre" className="experiencias correr ">
                     <div className="item-exp ">
                         <span>
                             Sou desenvolvedora Junior, com dois anos de experiência na empresa DOWHILE.
@@ -52,11 +53,30 @@ function Index() {
 
             </Section>
 
+            {/* <Section background={'red'} >
+                <div id="exp" className="experiencias correr ">
+                    <div className="item-exp ">
+                        <span>
+                            Sou desenvolvedora Junior, com dois anos de experiência na empresa DOWHILE.
+                            Tenho 22 anos, atualmente estou cursando Análise e desenvolvimento de Sistemas no 4º semestre
+                             na Instituição Fadergs.
+                       </span>
+                    </div>
+
+                </div>
+
+            </Section> */}
+
+
+
 
         </div >
     )
 
 }
+{/* <script> */ }
+console.log('aqui');
+// </script>
 
 export default Index
 
