@@ -5,8 +5,6 @@ const Menu = styled.div`
 font-size:20px;
 
  li{
-
-    //  color: white;
      color:#acb5b5;
      padding:5px 0px 5px 60px;
  }
@@ -20,6 +18,16 @@ font-size:20px;
      margin:5px 0px 0px 0px;
      list-style: none; // remove a marcação de lista
      display:flex;
+ }
+
+ @media(max-width:768px){
+    li {
+        padding:10px;
+    } 
+    ul {
+        justify-content:center;
+        padding-right: 10%;
+    }
  }
 
 

@@ -18,7 +18,7 @@ const Container = Styled.div`
 
         span {
         margin:5px;
-        color :white;
+        color:white;
         }
         .content {
             padding: 30px;
@@ -27,7 +27,11 @@ const Container = Styled.div`
 
      @media(max-width:768px) {
           flex-wrap: wrap;
-        
+            .item span {
+            margin:5px;
+            color:#222929;
+            }
+     
     }
 
 

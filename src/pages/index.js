@@ -30,7 +30,7 @@ function Index() {
                         <div className='item '>
                             <Sobre>
                                 <h2>Aline Prado Barbosa</h2>
-                                <span className="spann"> Dev Full Stack</span>
+                                <span> Dev Full Stack</span>
                             </Sobre>
                         </div>
 
@@ -39,7 +39,7 @@ function Index() {
 
             </Section>
 
-            <Section background={'#fdfdff'} >
+            {/* <Section background={'#fdfdff'} >
                 <div id="sobre" className="experiencias correr ">
                     <div className="item-exp ">
                         <span>
@@ -51,7 +51,7 @@ function Index() {
 
                 </div>
 
-            </Section>
+            </Section> */}
 
             {/* <Section background={'red'} >
                 <div id="exp" className="experiencias correr ">

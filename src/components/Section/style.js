@@ -18,10 +18,10 @@ const Section = Styled.div`
     margin-top: 55px;
     }
 
-    h3{
+    h3 {
         margin:0px!important;
     }
-.section-header {
+    .section-header {
      background-Image:url(${fundo});
    // background-image: url("https://cdn.pixabay.com/photo/2020/10/16/22/54/woman-5660786_960_720.png");
     background-repeat: no-repeat;
@@ -29,36 +29,37 @@ const Section = Styled.div`
     background-position-y: 41px;
     background-position-x: right;
     
-}
+    }
 
-    .experiencias{
+    .experiencias {
         justify-content:center;
         font-size:25px;
         display:flex;
         padding: 5% 5% 5% 35%;
 
-     .item-exp{
-               width: 70%;
+        .item-exp {
+            width: 70%;
         }
-     
-       
      
     }
 
      @media(max-width:768px) {
- 
-            .section-header {
+
+        .item-faixa {
+            height:10%;
+        }
+
+        .section-header {
         // Efeito corte faixa do avatar
           height: 100%; 
-
-    }
-    .experiencias{
+        }
+        .experiencias{
            justfy-content:center;
            padding:0px;
-         .item-exp{
-            width: 90%
+            .item-exp{
+                width: 90%
+            }
         }
-    }
     }
 
  

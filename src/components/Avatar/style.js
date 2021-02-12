@@ -6,7 +6,7 @@ const Avatar = Styled.div`
 
     
   img{
-      object-fit: cover;  
+   object-fit: cover;  
   border-radius: 50%;
   width: 250px;
   height:250px;
