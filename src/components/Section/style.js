@@ -1,21 +1,17 @@
 
 import React from 'react'
 import Styled from 'styled-components'
-import fundo from "../../../public/images/fundo-500x290.png"
+import fundo from "../../../public/images/atena.png"
 const Section = Styled.div`
 
 
     background: ${ (props => props.background ? props.background : "#222929")};
-    height: 350px;
 
+    height: 660px;
     width: -webkit - fill - available;
-
-
-
     .item-faixa {
-   // background: #030323;
     height: 482px;
-    margin-top: 55px;
+    margin-top: 35%!important;
     }
 
     h3 {
@@ -23,12 +19,9 @@ const Section = Styled.div`
     }
     .section-header {
      background-Image:url(${fundo});
-   // background-image: url("https://cdn.pixabay.com/photo/2020/10/16/22/54/woman-5660786_960_720.png");
     background-repeat: no-repeat;
-    // background-size: 50%;
-    background-position-y: 41px;
-    background-position-x: right;
-    
+    background-size: 100%;
+    height: 100%
     }
 
     .experiencias {
@@ -44,7 +37,7 @@ const Section = Styled.div`
     }
 
      @media(max-width:768px) {
-
+        height: 100%;
         .item-faixa {
             height:10%;
         }

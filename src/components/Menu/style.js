@@ -2,8 +2,11 @@ import styled from "styled-components"
 
 const Menu = styled.div`
 
-font-size:20px;
-
+font-size:25px;
+ .sociais{
+    display: flex;
+    margin-right: auto;
+ }
  li{
      color:#acb5b5;
      padding:5px 0px 5px 60px;
@@ -33,4 +36,4 @@ font-size:20px;
 
 `
 
-export default Menu 
+export default Menu

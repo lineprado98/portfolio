@@ -1,12 +1,14 @@
-import React, { useRef } from "react"
+import React from "react"
+import { Text } from "react"
 import Avatar from '../components/Avatar'
 import Section from '../components/Section/'
-import Sobre from '../components/Sobre'
+import About from '../components/About'
 import Container from '../components/Container'
 import Faixa from '../components/Faixa'
 import Menu from '../components/Menu'
 import Header from '../components/Header'
-import Style from '../components/Menu/style'
+import { BsSlash, BsCodeSlash, BsCode } from "react-icons/bs"
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 function Index() {
 
 
@@ -17,7 +19,7 @@ function Index() {
                 <Menu></Menu>
             </Header>
 
-            <Section>
+            <Section background={'#1b1c23'} >
                 <div id="inicio" className="section-header">
                     <Container>
                         <Faixa>
@@ -28,44 +30,32 @@ function Index() {
                             </div>
                         </Faixa>
                         <div className='item '>
-                            <Sobre>
-                                <h2>Aline Prado Barbosa</h2>
-                                <span> Dev Full Stack</span>
-                            </Sobre>
+                        <About>
+                            <h2>  Aline Prado Barbosa  </h2>
+                            <div class="flex">
+                                <div styled="font-size:20px"> Desenvolvedora</div> 
+                            </div>
+                        </About>
                         </div>
 
                     </Container>
                 </div>
-
             </Section>
 
-            {/* <Section background={'#fdfdff'} >
-                <div id="sobre" className="experiencias correr ">
+
+            <Section >
+                <div id="about" className="experiencias correr ">
                     <div className="item-exp ">
                         <span>
                             Sou desenvolvedora Junior, com dois anos de experiência na empresa DOWHILE.
                             Tenho 22 anos, atualmente estou cursando Análise e desenvolvimento de Sistemas no 4º semestre
-                             na Instituição Fadergs.
-                       </span>
+                            na Instituição Fadergs.
+                        </span>
                     </div>
 
                 </div>
 
-            </Section> */}
-
-            {/* <Section background={'red'} >
-                <div id="exp" className="experiencias correr ">
-                    <div className="item-exp ">
-                        <span>
-                            Sou desenvolvedora Junior, com dois anos de experiência na empresa DOWHILE.
-                            Tenho 22 anos, atualmente estou cursando Análise e desenvolvimento de Sistemas no 4º semestre
-                             na Instituição Fadergs.
-                       </span>
-                    </div>
-
-                </div>
-
-            </Section> */}
+            </Section>
 
 
 
