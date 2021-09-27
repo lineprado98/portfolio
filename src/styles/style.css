@@ -25,13 +25,27 @@ h2 {
 .subir {
   animation: go-top 2s;
 }
+.icon-arrow {
 
+  animation: go-top-arrow 0.8s infinite alternate;
+}
+a{
+ cursor: pointer;
+}
 @keyframes go-back {
   from {
     transform: translateX(-10%);
   }
   to {
     transform: translateX(0);
+  }
+}
+@keyframes go-top-arrow {
+  from {
+    transform: translateY(15%);
+  }
+  to {
+    transform: translateY(2%);
   }
 }
 

@@ -7,7 +7,8 @@ import Container from '../components/Container'
 import Faixa from '../components/Faixa'
 import Menu from '../components/Menu'
 import Header from '../components/Header'
-import { BsSlash, BsCodeSlash, BsCode } from "react-icons/bs"
+import { Link, animateScroll as scroll } from "react-scroll";
+import { BsSlash, BsCodeSlash, BsCode, BsChevronCompactDown } from "react-icons/bs"
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
 function Index() {
 
@@ -26,16 +27,30 @@ function Index() {
                             <div className='item item-faixa subir'>
                                 <div className="content">
                                     <Avatar></Avatar>
+
                                 </div>
                             </div>
                         </Faixa>
                         <div className='item '>
-                        <About>
-                            <h2>  Aline Prado Barbosa  </h2>
-                            <div class="flex">
-                                <div styled="font-size:20px"> Desenvolvedora</div> 
-                            </div>
-                        </About>
+                            <About>
+                                <h2>  Aline Prado Barbosa  </h2>
+                                <div class="flex">
+                                    <div styled="font-size:20px"> Desenvolvedora</div>
+                                </div>
+                              
+                                <div className="icon-arrow">
+                                    <Link
+                                        poster={true}
+                                        activeStyle={true}
+                                        activeClass="active"
+                                        to="about"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={500}
+                                    >
+                                    <BsChevronCompactDown size="20%" /></Link></div>
+                            </About>
                         </div>
 
                     </Container>
