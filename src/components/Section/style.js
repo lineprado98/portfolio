@@ -1,7 +1,7 @@
 
 import React from 'react'
 import Styled from 'styled-components'
-import fundo from "../../../public/images/atena.png"
+import fundo from "../../../public/images/line24.png"
 const Section = Styled.div`
 
 

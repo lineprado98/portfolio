@@ -26,12 +26,12 @@ function Index() {
                         <Faixa>
                             <div className='item item-faixa subir'>
                                 <div className="content">
-                                    <Avatar></Avatar>
+                                    {/* <Avatar></Avatar> */}
 
                                 </div>
                             </div>
                         </Faixa>
-                        <div className='item '>
+                        <div className='item'>
                             <About>
                                 <h2>  Aline Prado Barbosa  </h2>
                                 <div class="flex">

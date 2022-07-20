@@ -11,7 +11,7 @@ const Menu = () => {
                 <ul>
                     <div className="sociais">
                         <li> <FaLinkedinIn /></li>
-                        <li><FaGithub /></li>
+                        <li> <FaGithub /></li>
                         <li> <FaInstagram /></li>
                     </div>
                     <li>

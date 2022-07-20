@@ -6,6 +6,7 @@ font-size:25px;
  .sociais{
     display: flex;
     margin-right: auto;
+
  }
  li{
      color:#acb5b5;
@@ -21,6 +22,12 @@ font-size:25px;
      margin:5px 0px 0px 0px;
      list-style: none; // remove a marcação de lista
      display:flex;
+ }
+
+  @media only screen and (max-width:792px) {
+    .sociais {
+       display:none;
+    }
  }
 
  @media(max-width:768px){

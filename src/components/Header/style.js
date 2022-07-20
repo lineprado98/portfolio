@@ -9,6 +9,14 @@ const Header = styled.div`
  .opac {
     opacity : 1;
  }
+ .social {
+   visibility:show;
+}
+ @media only screen and (max-width:792px) {
+   .social {
+      visibility: show hidden;
+   }
+}
 
 
 `
