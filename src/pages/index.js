@@ -1,12 +1,19 @@
+
 import React from "react"
-import { Text } from "react"
-import Avatar from '../components/Avatar'
+
 import Section from '../components/Section/'
-import About from '../components/About'
-import Container from '../components/Container'
-import Faixa from '../components/Faixa'
 import Menu from '../components/Menu'
 import Header from '../components/Header'
+import NodeLogo from "../../public/images/node.svg"
+import VueLogo from "../../public/images/vue.svg"
+import LaravelLogo from "../../public/images/laravel.svg"
+import AngularLogo from "../../public/images/angular.svg"
+import ReactLogo from "../../public/images/react.svg"
+import NestLogo from "../../public/images/nestjs.svg"
+
+
+
+
 import { Link, animateScroll as scroll } from "react-scroll";
 import { BsSlash, BsCodeSlash, BsCode, BsChevronCompactDown } from "react-icons/bs"
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa"
@@ -20,57 +27,56 @@ function Index() {
                 <Menu></Menu>
             </Header>
 
-            <Section background={'#1b1c23'} >
-                <div id="inicio" className="section-header">
-                    <Container>
-                        <Faixa>
-                            <div className='item item-faixa subir'>
-                                <div className="content">
-                                    {/* <Avatar></Avatar> */}
-
-                                </div>
-                            </div>
-                        </Faixa>
-                        <div className='item'>
-                            <About>
-                                <h2>  Aline Prado Barbosa  </h2>
-                                <div class="flex">
-                                    <div styled="font-size:20px"> Desenvolvedora</div>
-                                </div>
-                              
-                                <div className="icon-arrow">
-                                    <Link
-                                        poster={true}
-                                        activeStyle={true}
-                                        activeClass="active"
-                                        to="about"
-                                        spy={true}
-                                        smooth={true}
-                                        offset={-70}
-                                        duration={500}
-                                    >
-                                    <BsChevronCompactDown size="20%" /></Link></div>
-                            </About>
-                        </div>
-
-                    </Container>
-                </div>
-            </Section>
-
-
             <Section >
-                <div id="about" className="experiencias correr ">
-                    <div className="item-exp ">
-                        <span>
-                            Sou desenvolvedora Junior, com dois anos de experiência na empresa DOWHILE.
-                            Tenho 22 anos, atualmente estou cursando Análise e desenvolvimento de Sistemas no 4º semestre
-                            na Instituição Fadergs.
-                        </span>
+                <div id="inicio" className="section-header">
+              
+                <div  className='d-flex justify-content-center mb-4'>
+                        <div md='6' className='text-center justify-content-center mt-5 text-white'>
+                            <div className="  mb-3" style={{ height: "300px" }}>
+                            
+                           </div>
+                           <h2>  Aline Prado Barbosa  </h2>
+                            <div> Developer</div>
+                           <div className="icon-arrow">
+                                <Link
+                                    poster={true}
+                                    activeStyle={true}
+                                    activeClass="active"
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-70}
+                                    duration={500}
+                                >
+                                    <BsChevronCompactDown size="25%" /></Link></div>
+
+                        </div>
                     </div>
-
                 </div>
-
             </Section>
+
+
+
+            {/* <Section background={'white'}>
+                <div id="about">
+                <div className="  mb-3" style={{ height: "250px" }}>
+                            
+                            </div>
+                <div className=' d-flex justify-content-around' >
+
+                        <img width={150} src={NestLogo}/>
+
+                        <img width={150} src={ReactLogo}/>
+
+                        <img width={150} src={NodeLogo}/>
+
+                        <img width={150} src={AngularLogo}/>
+
+                        <img width={150} src={LaravelLogo}/>
+
+                    </div>
+                </div>
+            </Section> */}
 
 
 
@@ -84,6 +90,3 @@ console.log('aqui');
 // </script>
 
 export default Index
-
-
-

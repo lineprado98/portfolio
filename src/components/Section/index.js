@@ -6,7 +6,7 @@ import Style from '../Section/style'
 
 const Section = ({ children, background }) => {
     return (
-        < Style background={background}>
+        <Style background={background}>
             {children}
 
         </Style >
