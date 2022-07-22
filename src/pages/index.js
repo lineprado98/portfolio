@@ -22,22 +22,21 @@ function Index() {
 
     return (
 
-        <div>
+        <div className="column">
             <Header>
                 <Menu></Menu>
             </Header>
 
             <Section >
-                <div id="inicio" className="section-header">
-              
-                <div  className='d-flex justify-content-center mb-4'>
-                        <div md='6' className='text-center justify-content-center mt-5 text-white'>
-                            <div className="  mb-3" style={{ height: "300px" }}>
-                            
-                           </div>
-                           <h2>  Aline Prado Barbosa  </h2>
+                <div>
+
+                    <div id="inicio" className="section-header">
+
+                        <div className=" flex column justify-content-center text-center">
+
+                            <h2>  Aline Prado Barbosa  </h2>
                             <div> Developer</div>
-                           <div className="icon-arrow">
+                            <div className="icon-arrow">
                                 <Link
                                     poster={true}
                                     activeStyle={true}
@@ -46,10 +45,10 @@ function Index() {
                                     spy={true}
                                     smooth={true}
                                     offset={-70}
-                                    duration={500}
-                                >
-                                    <BsChevronCompactDown size="25%" /></Link></div>
-
+                                    duration={500}>
+                                    <BsChevronCompactDown size="10%" />
+                                </Link>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,26 +56,22 @@ function Index() {
 
 
 
-            {/* <Section background={'white'}>
-                <div id="about">
-                <div className="  mb-3" style={{ height: "250px" }}>
-                            
-                            </div>
-                <div className=' d-flex justify-content-around' >
+            <Section>
 
-                        <img width={150} src={NestLogo}/>
+                <div id="about" className=" list  flex justify-content-space-evenly p-top-12">
 
-                        <img width={150} src={ReactLogo}/>
+                    <img className="icon-technology" src={NestLogo} />
 
-                        <img width={150} src={NodeLogo}/>
+                    <img className="icon-technology" src={ReactLogo} />
 
-                        <img width={150} src={AngularLogo}/>
+                    <img className="icon-technology" src={NodeLogo} />
+                    <img className="icon-technology" src={AngularLogo} />
 
-                        <img width={150} src={LaravelLogo}/>
+                    <img className="icon-technology" src={LaravelLogo} />
 
-                    </div>
                 </div>
-            </Section> */}
+
+            </Section>
 
 
 

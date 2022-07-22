@@ -4,39 +4,25 @@ import Styled from 'styled-components'
 import fundo from "../../../public/images/line24.png"
 const Section = Styled.div`
 
-  width:100%;
-  height: 100vh;
+    height:100vh;
+    width: 100vw;
 
-    .section-header {
-    background:url(${fundo})no-repeat bottom center scroll;;
+   .section-header {
+    background:url(${fundo})no-repeat bottom center scroll;
     display: table;
-    width:100%;
-    height: 100vh;
-    padding: 100px 0;
+    height:100vh;
+    width: 100vw;
+   // padding: 100px 0;
     color: white;
     background-position: 30% 45%;
     background-size: cover;
 
     }
-
-
-     @media(max-width:768px) {
-        .section-header {
-            background:url(${fundo})no-repeat bottom center scroll;;
-            display: table;
-            width:100vh;
-            height: 100vh;
-            padding: 100px 0;
-            color: white;
-            background-position: 30% 45%;
-            background-size: cover;
-          
-        }
-
-
+    @media(max-width: 800px) {
+      background:red;
+      height:100hv;
     }
 
-    
 
  
 

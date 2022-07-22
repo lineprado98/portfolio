@@ -1,6 +1,9 @@
 body {
   background: #d3e0e0;
   margin: 0px;
+  display:flex;
+ width:100%;
+   height:100vh;
   font-family: Roboto, Helvetica, Arial, sans-serif;
 
 }
@@ -20,6 +23,10 @@ h2 {
 .wrap {
   flex-wrap: wrap;
 }
+.flex{
+display: flex;
+}
+
 .correr {
   animation: go-back 2s;
 }
@@ -33,6 +40,71 @@ h2 {
 a{
  cursor: pointer;
 }
+.justify-content-center {
+  justify-content:center;
+}
+.text-center{
+  text-align:center;
+}
+.mt-2{
+  margin-top: 2pc;
+}
+.mt-4{
+  margin-top: 4pc;
+}
+.mt-6{
+  margin-top: 6pc;
+}
+.mt-8{
+  margin-top: 8pc;
+}
+.mt-10{
+  margin-top: 10pc;
+}
+.mt-12{
+  margin-top:12pc;
+}
+.mb-2{
+  margin-bottom: 2pc;
+}
+.mb-4{
+  margin-bottom: 4pc;
+}
+.mb-6{
+  margin-bottom: 6pc;
+}
+.mb-8{
+  margin-bottom: 8pc;
+}
+.mb-10{
+  margin-bottom: 10pc;
+}
+.mb-12{
+  margin-bottom: 12pc;
+}
+
+
+.p-top-12 {
+  padding-top:22pc ;
+
+}
+
+
+.justify-content-space-evenly{
+  justify-content:space-evenly;
+}
+.icon-technology {
+  width:100px;
+}
+
+
+@media(max-width: 800px) {
+  .list{
+    flex-wrap:  wrap ;
+  }
+
+}
+
 @keyframes go-back {
   from {
     transform: translateX(-10%);
