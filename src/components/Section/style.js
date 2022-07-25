@@ -6,8 +6,10 @@ const Section = Styled.div`
 
     height:100vh;
     width: 100vw;
+    background:black;
 
    .section-header {
+     display:flex;
     background:url(${fundo})no-repeat bottom center scroll;
     display: table;
     height:100vh;
@@ -19,7 +21,6 @@ const Section = Styled.div`
 
     }
     @media(max-width: 800px) {
-      background:red;
       height:100hv;
     }
 

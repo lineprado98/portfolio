@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 const Menu = styled.div`
 
+background:black;
 font-size:25px;
  .sociais{
     display: flex;
@@ -10,7 +11,7 @@ font-size:25px;
  }
  li{
      color:#acb5b5;
-     padding:5px 0px 5px 60px;
+     padding:15px 0px 5px 60px;
  }
  li:hover{
     color:white;

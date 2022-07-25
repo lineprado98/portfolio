@@ -4,7 +4,7 @@ const Header = styled.div`
  position:fixed;
  width: 100%;
  height:9%;
- background:#111111;
+ background:black;
 
  .opac {
     opacity : 1;

@@ -8,7 +8,6 @@ const Section = ({ children, background }) => {
     return (
         <Style background={background}>
             {children}
-
         </Style >
     )
 

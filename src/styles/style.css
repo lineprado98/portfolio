@@ -1,11 +1,20 @@
-body {
-  background: #d3e0e0;
-  margin: 0px;
-  display:flex;
- width:100%;
-   height:100vh;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
+
+body {
+  background:black;
+  margin: 0px;
+  width:100%;
+  font-family: "Poppins";
+
+}
+.iam{
+  width: 50%;
+  color:white;
+  margin: 5%;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
 }
 h2 {
   font-size: 40px;
@@ -24,6 +33,7 @@ h2 {
   flex-wrap: wrap;
 }
 .flex{
+  height: 100%;
 display: flex;
 }
 
@@ -34,7 +44,6 @@ display: flex;
   animation: go-top 2s;
 }
 .icon-arrow {
-
   animation: go-top-arrow 0.8s infinite alternate;
 }
 a{
@@ -63,6 +72,9 @@ a{
 }
 .mt-12{
   margin-top:12pc;
+}
+.mt-16{
+  margin-top:16pc;
 }
 .mb-2{
   margin-bottom: 2pc;
@@ -96,11 +108,61 @@ a{
 .icon-technology {
   width:100px;
 }
+.item-center{
+  display: flex;
+  align-items: center;
+}
+.list{
+  display: flex;
+  flex-wrap: wrap ;
+  gap: 10px;
+  gap: 10px 20px;
+  row-gap: 100px;
+  column-gap: 25%; 
+  margin: 10%;
+  height: auto;
+}
+.cardItem{
+  
+  width: 50%;
+  display: flex;
+  align-items: center;}
 
 
 @media(max-width: 800px) {
+  .icon-technology {
+    width:50px;
+  }
+
+  .iam{
+    color:white;
+    margin: 5%;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+  }
   .list{
-    flex-wrap:  wrap ;
+    flex-wrap: wrap ;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+  .list2{
+    flex-wrap: wrap ;
+    justify-content: center;
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 10px;
+    column-gap: 20px;
+  }
+  @keyframes go-back {
+    from {
+      transform: translateX(-5%);
+    }
+    to {
+      transform: translateX(10);
+    }
   }
 
 }

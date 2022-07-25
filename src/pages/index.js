@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import NodeLogo from "../../public/images/node.svg"
 import VueLogo from "../../public/images/vue.svg"
 import LaravelLogo from "../../public/images/laravel.svg"
+import FlutterLogo from "../../public/images/flutter.svg"
 import AngularLogo from "../../public/images/angular.svg"
 import ReactLogo from "../../public/images/react.svg"
 import NestLogo from "../../public/images/nestjs.svg"
@@ -27,20 +28,17 @@ function Index() {
                 <Menu></Menu>
             </Header>
 
-            <Section >
-                <div>
+            <Section>
 
-                    <div id="inicio" className="section-header">
+                <div id="inicio" className="section-header">
+                    <div className="flex column">
+                        <div className=" mt-16 justify-content-center text-center">
 
-                        <div className=" flex column justify-content-center text-center">
-
-                            <h2>  Aline Prado Barbosa  </h2>
+                            <h2 color="primary" >  Aline Prado  </h2>
                             <div> Developer</div>
                             <div className="icon-arrow">
                                 <Link
-                                    poster={true}
-                                    activeStyle={true}
-                                    activeClass="active"
+                              
                                     to="about"
                                     spy={true}
                                     smooth={true}
@@ -55,10 +53,15 @@ function Index() {
             </Section>
 
 
-
             <Section>
+                <div id="about" className="flex list2 ">
+                <div className=" cardItem iam ">
 
-                <div id="about" className=" list  flex justify-content-space-evenly p-top-12">
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec elit convallis, hendrerit felis ut, aliquam elit. Maecenas accumsan lacus libero. Maecenas elit felis, luctus nec bibendum dignissim, porta sed tortor. Praesent vestibulum, tellus et malesuada tempus, dui ipsum pharetra metus, vel maximus ipsum lacus ut quam. Duis porta lacus massa, eget pellentesque dui faucibus ut. 
+                </div>
+                <div className="cardItem">
+                <div  className=" list  flex justify-content-space-evenly p-top-2">
 
                     <img className="icon-technology" src={NestLogo} />
 
@@ -66,14 +69,14 @@ function Index() {
 
                     <img className="icon-technology" src={NodeLogo} />
                     <img className="icon-technology" src={AngularLogo} />
+                    <img className="icon-technology" src={FlutterLogo} />
 
                     <img className="icon-technology" src={LaravelLogo} />
 
                 </div>
-
+                </div>
+                 </div>
             </Section>
-
-
 
 
         </div >
