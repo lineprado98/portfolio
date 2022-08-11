@@ -38,7 +38,7 @@ function Index() {
                             <div> Developer</div>
                             <div className="icon-arrow">
                                 <Link
-                              
+
                                     to="about"
                                     spy={true}
                                     smooth={true}
@@ -54,28 +54,35 @@ function Index() {
 
 
             <Section>
+          
                 <div id="about" className="flex list2 ">
-                <div className=" cardItem iam ">
 
+                    <div className=" cardItem iam ">
 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec elit convallis, hendrerit felis ut, aliquam elit. Maecenas accumsan lacus libero. Maecenas elit felis, luctus nec bibendum dignissim, porta sed tortor. Praesent vestibulum, tellus et malesuada tempus, dui ipsum pharetra metus, vel maximus ipsum lacus ut quam. Duis porta lacus massa, eget pellentesque dui faucibus ut. 
+                <div>
+                <h3>Olá!</h3>               
+
+                       <p> Esta é minha página profissional, se você está aqui é porque certamente quer saber um pouco mais sobre  a Aline!</p>
+
+                        Aline é uma desenvolvedora fullStack  há três anos, formada em Análise e desenvolvimento  de sistemas, vive em constante evolução pessoal e profissional,
+                        detesta parar no tempo e acredita que nada que você aprende é somente seu, ou seja, dividir é multiplicar.
+                    </div></div>
+                    <div className="cardItem">
+                        <div className=" list  flex justify-content-space-evenly p-top-2">
+
+                            <img className="icon-technology" src={NestLogo} />
+
+                            <img className="icon-technology" src={ReactLogo} />
+
+                            <img className="icon-technology" src={NodeLogo} />
+                            <img className="icon-technology" src={AngularLogo} />
+                            <img className="icon-technology" src={FlutterLogo} />
+
+                            <img className="icon-technology" src={LaravelLogo} />
+
+                        </div>
+                    </div>
                 </div>
-                <div className="cardItem">
-                <div  className=" list  flex justify-content-space-evenly p-top-2">
-
-                    <img className="icon-technology" src={NestLogo} />
-
-                    <img className="icon-technology" src={ReactLogo} />
-
-                    <img className="icon-technology" src={NodeLogo} />
-                    <img className="icon-technology" src={AngularLogo} />
-                    <img className="icon-technology" src={FlutterLogo} />
-
-                    <img className="icon-technology" src={LaravelLogo} />
-
-                </div>
-                </div>
-                 </div>
             </Section>
 
 
