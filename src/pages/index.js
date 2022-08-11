@@ -62,9 +62,9 @@ function Index() {
                 <div>
                 <h3>Olá!</h3>               
 
-                       <p> Esta é minha página profissional, se você está aqui é porque certamente quer saber um pouco mais sobre  a Aline!</p>
+                       <p> Esta é minha página profissional. Se você está aqui é porque certamente quer saber um pouco mais sobre a Aline!</p>
 
-                        Aline é uma desenvolvedora fullStack  há três anos, formada em Análise e desenvolvimento  de sistemas, vive em constante evolução pessoal e profissional,
+                        Aline é uma desenvolvedora fullStack há três anos, formada em Análise e desenvolvimento  de sistemas. Vive em constante evolução pessoal e profissional,
                         detesta parar no tempo e acredita que nada que você aprende é somente seu, ou seja, dividir é multiplicar.
                     </div></div>
                     <div className="cardItem">
