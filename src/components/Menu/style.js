@@ -7,13 +7,16 @@ font-size:25px;
  .sociais{
     display: flex;
     margin-right: auto;
-
+ a{
+   color:#acb5b5;
+  
+ }
  }
  li{
      color:#acb5b5;
      padding:15px 0px 5px 60px;
  }
- li:hover{
+ li:hover>a{
     color:white;
     opacity:1!important;
  }

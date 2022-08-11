@@ -11,9 +11,9 @@ const Menu = () => {
                 <ul>
                     <div className="sociais">
 
-                        <li> <FaLinkedinIn /></li>
-                        <li> <FaGithub /></li>
-                        <li> <FaInstagram /></li>
+                        <li> <a href="https://www.linkedin.com/in/aline-prado-dev1998" target="_blank"><FaLinkedinIn/></a></li>
+                        <li> <a href="https://github.com/lineprado98" target="_blank"><FaGithub /></a></li>
+            
                     </div>
                     <li>
                         <Link
@@ -23,7 +23,7 @@ const Menu = () => {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                        >START</Link>
+                        >Início</Link>
 
                     </li>
                     <li>
@@ -33,10 +33,10 @@ const Menu = () => {
                             smooth={true}
                             offset={-50}
                             duration={500}
-                        >ABOUT</Link>
+                        >Sobre</Link>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <Link
                           
                             to="exp"
@@ -44,9 +44,9 @@ const Menu = () => {
                             smooth={true}
                             offset={-70}
                             duration={500}
-                        >CONTACT</Link>
+                        >Contato</Link>
 
-                    </li>
+                    </li> */}
                 </ul>
 
             </Style>

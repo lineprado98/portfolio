@@ -90,8 +90,4 @@ function Index() {
     )
 
 }
-{/* <script> */ }
-console.log('aqui');
-// </script>
-
 export default Index
